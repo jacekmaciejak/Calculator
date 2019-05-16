@@ -13,9 +13,9 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-
 	background: #00d2ffe6;
 	padding: 7px;
+	border-radius: 15px;
 }
 
 .button {
@@ -24,6 +24,7 @@
 	font-size: 25px;
 	margin: 2px;
 	cursor: pointer;
+	border-radius: 8px;
 }
 
 .button:hover {
@@ -42,4 +43,6 @@
 	font-size: 30px;
 	padding: 5px;
 	text-align: right;
+	border-radius: 10px;
+
 }
