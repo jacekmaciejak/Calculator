@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.bg {
+	height: 100vh;
+	background-image: linear-gradient(to right bottom, #ffc8fd, #fdabed, #fb8dd9, #fa6ac2, #fa6ac2);
+}
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	background: #00d2ffe6;
+	padding: 7px;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: #f83fa7;
+	border: none;
+}
+
+.button__bg {
+	background: #fff;
+}
+
+.textview {
+	width: 205px;
+	height: 50px;
+	margin: 5px;
+	font-size: 30px;
+	padding: 5px;
+	text-align: right;
+}
